@@ -17,9 +17,3 @@ seaborn>=0.11.0
 ipython  # interactive notebook
 psutil  # system utilization
 thop>=0.1.1  # FLOPs computation
-pandas
-plotly
-streamlit
-yfinance
-pandas-datareader
-prophet
