@@ -1,1 +1,0 @@
-Configuration files for train, validation and test
