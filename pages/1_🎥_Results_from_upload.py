@@ -125,8 +125,9 @@ if user_video:
 
     col_1, col_2 = st.columns(2)
     add_new = col_1.expander("Add New Patient")
-    add_existing = col_2.expander("Add session with existing Patient Record(It will go to the Evaluation Progress)")
-
+    add_existing = col_2.expander("Add session with existing Patient Record
+                                    (It will go to the Evaluation Progress)")
+    
     with add_new:
         with st.form(key="add_session_1"):
             toddler = Toddler(st.text_input("What is the child's name?"))
