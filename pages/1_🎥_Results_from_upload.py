@@ -129,7 +129,7 @@ if user_video:
 
     with add_new:
         with st.form(key="add_session_1"):
-            toddler = Toddler(st.text_input("What is the toddler's name?"))
+            toddler = Toddler(st.text_input("What is the child's name?"))
             date = str(st.date_input("What is this session date?", key="1"))
             if st.form_submit_button("submit") and all([toddler, date]):
                 video.filepath = video_fp_from_toddler_date(toddler, date)
@@ -139,7 +139,7 @@ if user_video:
     with add_existing:
         with st.form(key="add_session_2"):
             toddler = Toddler(st.selectbox(
-                "What is the toddler's name?", toddlers_names()))
+                "What is the existing Patient's name?", toddlers_names()))
             date = str(st.date_input("What is this session date?", key="2"))
             if st.form_submit_button("submit") and all([toddler, date]):
                 video.filepath = video_fp_from_toddler_date(toddler, date)
