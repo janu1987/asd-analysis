@@ -124,8 +124,8 @@ if user_video:
     st.markdown("#### ")
 
     col_1, col_2 = st.columns(2)
-    add_new = col_1.expander("Add with new toddler")
-    add_existing = col_2.expander("Add with existing toddler")
+    add_new = col_1.expander("Add New Patient")
+    add_existing = col_2.expander("Add session with existing Patient Record")
 
     with add_new:
         with st.form(key="add_session_1"):
