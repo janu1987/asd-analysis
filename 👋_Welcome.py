@@ -15,8 +15,9 @@ st.set_page_config(
     layout="centered",
     page_icon="👋")
 
-st.title("A Tool to aid in ASD therapy sessions!")
-
+st.title("Computer-Aided Analysis Tool for Autism Occupational Therapy!")
+st.markdown("""
+#### Tool Developed by: Janu V. Peralta, LPT, MIT
 st.markdown("""
 ##### What is Autism?
 Autism Spectrum Disorder (ASD) is a complex developmental disorder affecting \
