@@ -59,7 +59,7 @@ notes about a patient's progress and where they store this information.
 
 st.markdown("""
 ---
-##### How our app can help in treatment?
+##### How the app can help in treatment?
 
 With the use of Artificial Inteligence and Computer Vision our app is capable of:
 
